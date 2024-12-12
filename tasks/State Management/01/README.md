@@ -20,6 +20,40 @@
 3. Компонент должен быть функциональным
 4. Все кнопки должны иметь соответствующие aria-label для доступности
 
+## Необходимая теория
+
+### Состояние компонента
+1. [useState Hook](https://react.dev/reference/react/useState)
+   - Объявление состояния
+   - Обновление состояния
+   - Функция обновления
+   - Начальное значение
+
+### Обработка событий
+1. [События в React](https://react.dev/learn/responding-to-events)
+   - Обработчики событий
+   - Передача параметров
+   - Предотвращение действий
+   - Всплытие событий
+
+### Условный рендеринг
+1. [Условия в JSX](https://react.dev/learn/conditional-rendering)
+   - Условное отображение
+   - Тернарные операторы
+   - Логические операторы
+   - Условные стили
+
+### TypeScript
+1. [Базовая типизация](https://react-typescript-cheatsheet.netlify.app/docs/basic/getting-started/basic_type_example)
+   - Типы props
+   - Типы событий
+   - Типы состояния
+   - Обработчики
+
+*Дополнительно*
+- [useCallback](https://react.dev/reference/react/useCallback) - мемоизация функций
+- [useMemo](https://react.dev/reference/react/useMemo) - мемоизация вычислений
+
 ## Полезные материалы для изучения
 
 ### Основы React Hooks

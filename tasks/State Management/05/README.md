@@ -49,6 +49,44 @@
    - Тестирование компонента
    - Тестирование взаимодействия пользователя
 
+## Необходимая теория
+
+### useReducer
+1. [Концепция reducer](https://react.dev/learn/extracting-state-logic-into-a-reducer)
+   - Что такое reducer и зачем он нужен
+   - Структура reducer функции
+   - Action объекты и их типы
+   - Правила написания чистых функций
+
+2. [Использование useReducer](https://react.dev/reference/react/useReducer)
+   - Синтаксис хука
+   - Инициализация состояния
+   - Dispatch actions
+   - Обработка побочных эффектов
+
+### Работа с состоянием
+1. [Иммутабельное обновление](https://react.dev/learn/updating-objects-in-state)
+   - Правильное обновление объектов
+   - Работа с вложенными структурами
+   - Обновление массивов
+   - Предотвращение мутаций
+
+### TypeScript
+1. [Типизация reducer](https://react-typescript-cheatsheet.netlify.app/docs/basic/getting-started/hooks#usereducer)
+   - Типы состояния
+   - Типы actions
+   - Типизация dispatch
+   - Discriminated unions для actions
+
+### Отладка
+1. [React DevTools](https://react.dev/learn/react-developer-tools)
+   - Просмотр состояния компонента
+   - Отслеживание изменений
+
+*Дополнительно*
+- [Immer](https://immerjs.github.io/immer/) - упрощает работу с иммутабельным состоянием
+- [Тестирование reducer](https://testing-library.com/docs/react-testing-library/example-intro#complex-state) - базовые подходы к тестированию
+
 ## Процесс проверки
 
 ### Автотесты (70%)
@@ -68,57 +106,6 @@
 - [ ] Качество TypeScript типов
 - [ ] Производительность при большом количестве задач
 - [ ] Чистота и организация кода
-
-## Полезные материалы для изучения
-
-### Основы useReducer
-1. [Введение в useReducer](https://react.dev/reference/react/useReducer)
-   - Базовое использование
-   - Сравнение с useState
-   - Паттерны использования
-
-2. [Управление сложным состоянием](https://react.dev/learn/managing-state#extracting-state-logic-into-a-reducer)
-   - Когда использовать useReducer
-   - Структурирование состояния
-   - Обработка действий
-
-### Типизация с TypeScript
-1. [TypeScript с useReducer](https://react-typescript-cheatsheet.netlify.app/docs/basic/getting-started/hooks#usereducer)
-   - Типизация состояния
-   - Типизация действий
-   - Дискриминированные объединения
-
-2. [Продвинутые типы](https://www.typescriptlang.org/docs/handbook/2/narrowing.html)
-   - Type Guards
-   - Type Narrowing
-   - Discriminated Unions
-
-### Оптимизация производительности
-1. [Оптимизация React](https://react.dev/learn/render-and-commit)
-   - Мемоизация
-   - Предотвращение лишних рендеров
-   - Профилирование компонентов
-
-2. [React DevTools](https://react.dev/learn/react-developer-tools)
-   - Отладка состояния
-   - Профилирование производительности
-   - Анализ ререндеров
-
-### Паттерны управления состоянием
-1. [Reducer Pattern](https://redux.js.org/tutorials/fundamentals/part-3-state-actions-reducers)
-   - Принципы построения reducer
-   - Обработка действий
-   - Иммутабельное обновление
-
-2. [Flux Architecture](https://facebook.github.io/flux/docs/in-depth-overview)
-   - Однонаправленный поток данных
-   - Управление состоянием
-   - Обработка действий
-
-### Дополнительные инструменты
-1. [Immer](https://immerjs.github.io/immer/) - упрощение работы с иммутабельным состоянием
-2. [Redux DevTools](https://github.com/reduxjs/redux-devtools) - отладка состояния
-3. [Reselect](https://github.com/reduxjs/reselect) - мемоизация селекторов
 
 ## Полезные материалы
 - [useReducer Hook](https://react.dev/reference/react/useReducer)

@@ -70,6 +70,40 @@
 - [ ] UX при изменении количества
 - [ ] Качество TypeScript типов
 
+## Необходимая теория
+
+### Производное состояние
+1. [Вычисляемые значения](https://react.dev/learn/managing-state#choosing-the-state-structure)
+   - Принципы вычисления
+   - Избегание дублирования
+   - Кэширование результатов
+   - Зависимости вычислений
+
+### Оптимизация
+1. [Мемоизация](https://react.dev/reference/react/useMemo)
+   - useMemo хук
+   - Выбор зависимостей
+   - Предотвращение перерасчетов
+   - Баланс памяти
+
+### Работа с числами
+1. [Числовые операции](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)
+   - Форматирование
+   - Округление
+   - Валидация
+   - Обработка ошибок
+
+### TypeScript
+1. [Типизация вычислений](https://www.typescriptlang.org/docs/handbook/2/types-from-types.html)
+   - Числовые типы
+   - Generics
+   - Utility Types
+   - Type Guards
+
+*Дополнительно*
+- [Decimal.js](https://github.com/MikeMcl/decimal.js/) - точные вычисления
+- [date-fns](https://date-fns.org/) - работа с датами
+
 ## Полезные материалы для изучения
 
 ### Производные вычисления в React

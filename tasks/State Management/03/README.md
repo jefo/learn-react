@@ -236,3 +236,37 @@ npm test
    - Отмена/повтор действий
    - Отладка состояний
    - Сохранение истории
+
+## Необходимая теория
+
+### Компоненты выбора
+1. [Select и Radio компоненты](https://react.dev/reference/react-dom/components/select)
+   - Управление значением
+   - Обработка изменений
+   - Группировка опций
+   - Disabled состояния
+
+### Управление состоянием
+1. [Структура состояния](https://react.dev/learn/managing-state)
+   - Организация сложных объектов
+   - Обновление вложенных данных
+   - Зависимые состояния
+   - Вычисляемые значения
+
+### Условный рендеринг
+1. [Динамический UI](https://react.dev/learn/conditional-rendering)
+   - Условное отображение
+   - Списки опций
+   - Зависимый контент
+   - Обработка ошибок
+
+### TypeScript
+1. [Типизация компонентов](https://react-typescript-cheatsheet.netlify.app/docs/basic/getting-started/basic_type_example)
+   - Props интерфейсы
+   - Типы событий
+   - Enum для опций
+   - Union types
+
+*Дополнительно*
+- [React Select](https://react-select.com/home) - продвинутый компонент выбора
+- [Zod](https://zod.dev/) - валидация конфигураций

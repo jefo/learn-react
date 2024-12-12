@@ -9,52 +9,38 @@
 3. При изменении полей должна происходить валидация
 4. Визуальная обратная связь о состоянии валидации
 
-## Полезные материалы для изучения
+## Необходимая теория
 
-### Основы работы с формами
-1. [Управляемые компоненты в React](https://react.dev/reference/react-dom/components/input#controlling-an-input-with-a-state-variable)
-   - Контролируемые vs неконтролируемые компоненты
-   - Обработка изменений в форме
-   - Управление состоянием формы
-   - Работа с различными типами полей
-   - Композиция форм
-
-2. [Паттерны форм в React](https://react.dev/learn/managing-state#reacting-to-input-with-state)
-   - Структурирование состояния формы
+### Работа с формами
+1. [Контролируемые компоненты](https://react.dev/reference/react-dom/components/input)
+   - Связь состояния с полями ввода
+   - Обработка изменений (onChange)
+   - Управление значениями полей
    - Обработка отправки формы
-   - Сброс формы
-   - Частичное обновление полей
-   - Условная логика формы
 
 ### Валидация форм
-1. [Клиентская валидация](https://react.dev/learn/managing-state#reacting-to-input-with-state)
-   - Встроенная HTML5 валидация
-   - Кастомная валидация
-   - Валидация в реальном времени
-   - Асинхронная валидация
-   - Комплексная валидация форм
-
-2. [Обработка ошибок](https://react.dev/learn/managing-state#displaying-error-messages)
-   - Стратегии отображения ошибок
-   - Группировка ошибок
-   - Приоритизация ошибок
+1. [Валидация данных](https://react.dev/learn/managing-state#reacting-to-input-with-state)
+   - Проверка при вводе
+   - Отображение ошибок
+   - Блокировка отправки
    - Очистка ошибок
-   - Валидация зависимых полей
 
 ### Состояние формы
-1. [Управление сложным состоянием](https://react.dev/learn/managing-state#principles-for-structuring-state)
-   - Организация состояния формы
-   - Обновление вложенных состояний
-   - Синхронизация полей
-   - Производные состояния
-   - Кэширование состояний
+1. [Управление состоянием](https://react.dev/learn/managing-state)
+   - Структура состояния формы
+   - Обновление полей
+   - Сброс формы
+   - Обработка ошибок
 
-2. [Оптимизация производительности](https://react.dev/learn/managing-state#preserving-and-resetting-state)
-   - Предотвращение лишних рендеров
-   - Дебаунсинг и тротлинг
-   - Ленивая валидация
-   - Оптимизация больших форм
-   - Виртуализация форм
+### TypeScript
+1. [Типизация форм](https://react-typescript-cheatsheet.netlify.app/docs/basic/getting-started/forms_and_events/)
+   - События формы
+   - Типы полей ввода
+   - Типы ошибок
+
+*Дополнительно*
+- [HTML5 валидация](https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation) - встроенные атрибуты валидации
+- [React Hook Form](https://react-hook-form.com/get-started) - упрощает валидацию форм
 
 ### Доступность форм
 1. [WAI-ARIA для форм](https://www.w3.org/WAI/ARIA/apg/patterns/forms/)

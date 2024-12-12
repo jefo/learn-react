@@ -100,6 +100,40 @@
    - Покрыты все основные сценарии
    - Тесты понятны и поддерживаемы
 
+## Необходимая теория
+
+### Эффекты
+1. [useEffect Hook](https://react.dev/reference/react/useEffect)
+   - Жизненный цикл эффекта
+   - Зависимости эффекта
+   - Очистка эффекта
+   - Пропуск эффектов
+
+### Асинхронные операции
+1. [Работа с API](https://react.dev/learn/synchronizing-with-effects)
+   - Fetch запросы
+   - Обработка ответов
+   - Обработка ошибок
+   - Отмена запросов
+
+### Состояние загрузки
+1. [Индикация загрузки](https://react.dev/learn/managing-state)
+   - Статусы загрузки
+   - Обработка ошибок
+   - Условный рендеринг
+   - Повторные попытки
+
+### TypeScript
+1. [Типизация эффектов](https://react-typescript-cheatsheet.netlify.app/docs/basic/getting-started/hooks#useeffect)
+   - Типы для API
+   - Async/Await
+   - Обработка ошибок
+   - Cleanup функции
+
+*Дополнительно*
+- [SWR](https://swr.vercel.app/) - кэширование и синхронизация
+- [Axios](https://axios-http.com/) - HTTP клиент
+
 ## Полезные материалы для изучения
 
 ### Работа с эффектами

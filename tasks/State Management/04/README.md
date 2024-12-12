@@ -44,6 +44,40 @@
    - Проверка отправки формы
    - Тестирование граничных случаев
 
+## Необходимая теория
+
+### Управление формой
+1. [Состояние формы](https://react.dev/reference/react-dom/components/input)
+   - Контролируемые компоненты
+   - Множественные поля
+   - Обработка изменений
+   - Отправка формы
+
+### Валидация
+1. [Валидация состояния](https://react.dev/learn/managing-state#reacting-to-input-with-state)
+   - Правила валидации
+   - Проверка зависимых полей
+   - Обработка ошибок
+   - Блокировка отправки
+
+### Обработка ошибок
+1. [Управление ошибками](https://react.dev/learn/managing-state#displaying-error-messages)
+   - Структура ошибок
+   - Отображение сообщений
+   - Очистка ошибок
+   - Приоритеты ошибок
+
+### TypeScript
+1. [Типизация](https://react-typescript-cheatsheet.netlify.app/docs/basic/getting-started/forms_and_events/)
+   - Интерфейсы формы
+   - Типы ошибок
+   - Валидационные функции
+   - Обработчики событий
+
+*Дополнительно*
+- [Yup](https://github.com/jquense/yup) - схемы валидации
+- [Formik](https://formik.org/docs/overview) - управление формами
+
 ## Процесс проверки
 
 ### Автотесты (70%)
