@@ -20,6 +20,37 @@
 3. Компонент должен быть функциональным
 4. Все кнопки должны иметь соответствующие aria-label для доступности
 
+## Полезные материалы для изучения
+
+### Основы React Hooks
+1. [Знакомство с useState](https://react.dev/reference/react/useState)
+   - Базовое использование
+   - Обновление состояния
+   - Работа с предыдущим значением
+
+2. [Управление состоянием](https://react.dev/learn/managing-state)
+   - Принципы работы с состоянием
+   - Когда использовать состояние
+
+### Типизация с TypeScript
+1. [TypeScript в React](https://react.dev/learn/typescript)
+   - Типизация пропсов
+   - Типизация событий
+
+2. [React TypeScript Cheatsheet](https://react-typescript-cheatsheet.netlify.app/)
+   - Примеры типизации компонентов
+   - Лучшие практики
+
+### Доступность (A11y)
+1. [React Accessibility](https://react.dev/reference/react-dom/components/common#aria-attributes)
+   - Использование ARIA-атрибутов
+   - Семантическая разметка
+
+### Дополнительно
+1. [React Developer Tools](https://react.dev/learn/react-developer-tools)
+   - Отладка состояния
+   - Инспектирование компонентов
+
 ## Как запустить
 
 1. Установить зависимости:
@@ -48,7 +79,7 @@ npm test
 - Сброс значения до 0 при нажатии на кнопку reset
 
 ### Ручная проверка:
-1. ПравильноУе использование хука useState
+1. Правильное использование хука useState
 2. Корректная типизация props
 3. Понятная структура компонента
 4. Следование принципам React и хорошим практикам

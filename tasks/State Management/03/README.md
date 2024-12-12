@@ -107,3 +107,37 @@ npm test
 - [React State Management](https://react.dev/learn/managing-state)
 - [TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html)
 - [Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
+
+## Полезные материалы для изучения
+
+### Управление состоянием
+1. [Выбор структуры состояния](https://react.dev/learn/choosing-the-state-structure)
+   - Как организовать сложное состояние
+   - Принципы структурирования данных
+
+2. [Совместное использование состояния](https://react.dev/learn/sharing-state-between-components)
+   - Подъём состояния
+   - Синхронизация компонентов
+
+### Компоненты выбора
+1. [React Select Component](https://react.dev/reference/react-dom/components/select)
+   - Работа с выпадающими списками
+   - Обработка выбора опций
+
+2. [React Radio и Checkbox](https://react.dev/reference/react-dom/components/input)
+   - Создание групп выбора
+   - Управление множественным выбором
+
+### Продвинутое управление состоянием
+1. [useReducer Hook](https://react.dev/reference/react/useReducer)
+   - Управление сложной логикой состояния
+   - Обработка связанных изменений
+
+2. [React Context](https://react.dev/learn/passing-data-deeply-with-context)
+   - Передача данных через уровни компонентов
+   - Организация глобального состояния
+
+### Дополнительно
+1. [Immer](https://immerjs.github.io/immer/) - библиотека для удобного обновления состояния
+2. [Redux Toolkit](https://redux-toolkit.js.org/) - для сложного управления состоянием
+3. [MobX](https://mobx.js.org/README.html) - альтернативный подход к управлению состоянием
