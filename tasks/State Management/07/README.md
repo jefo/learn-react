@@ -100,6 +100,68 @@
    - Покрыты все основные сценарии
    - Тесты понятны и поддерживаемы
 
+## Полезные материалы для изучения
+
+### Работа с эффектами
+1. [useEffect Hook](https://react.dev/reference/react/useEffect)
+   - Основы работы с эффектами
+   - Очистка эффектов
+   - Зависимости эффектов
+
+2. [Синхронизация с эффектами](https://react.dev/learn/synchronizing-with-effects)
+   - Когда использовать эффекты
+   - Оптимизация эффектов
+   - Обработка race conditions
+
+### Асинхронные операции
+1. [Работа с API](https://react.dev/learn/synchronizing-with-effects#fetching-data)
+   - Загрузка данных
+   - Обработка ошибок
+   - Отмена запросов
+
+2. [Асинхронный JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous)
+   - Promises
+   - async/await
+   - Обработка ошибок
+
+### Управление состоянием
+1. [useReducer с эффектами](https://react.dev/learn/extracting-state-logic-into-a-reducer)
+   - Интеграция с асинхронными операциями
+   - Обработка сложных обновлений
+   - Типизация действий
+
+2. [Оптимистичные обновления](https://react.dev/learn/you-might-not-need-an-effect#optimistic-updates)
+   - Стратегии обновления UI
+   - Обработка ошибок
+   - Откат изменений
+
+### Отладка и производительность
+1. [React DevTools](https://react.dev/learn/react-developer-tools)
+   - Отладка эффектов
+   - Профилирование
+   - Анализ ререндеров
+
+2. [Оптимизация производительности](https://react.dev/learn/render-and-commit)
+   - Мемоизация данных
+   - Предотвращение лишних запросов
+   - Кэширование результатов
+
+### Работа с сетью
+1. [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
+   - Выполнение запросов
+   - Обработка ответов
+   - Обработка ошибок
+
+2. [AbortController](https://developer.mozilla.org/en-US/docs/Web/API/AbortController)
+   - Отмена запросов
+   - Тайм-ауты
+   - Очистка ресурсов
+
+### Дополнительные библиотеки
+1. [React Query](https://tanstack.com/query/latest) - управление серверным состоянием
+2. [SWR](https://swr.vercel.app/) - хук для получения данных
+3. [Axios](https://axios-http.com/) - HTTP клиент
+
 ## Полезные материалы
 - [useEffect Hook](https://react.dev/learn/synchronizing-with-effects)
 - [Fetching Data](https://react.dev/learn/synchronizing-with-effects#fetching-data)

@@ -70,6 +70,57 @@
 - [ ] UX при изменении количества
 - [ ] Качество TypeScript типов
 
+## Полезные материалы для изучения
+
+### Производные вычисления в React
+1. [Мемоизация с useMemo](https://react.dev/reference/react/useMemo)
+   - Основы мемоизации
+   - Оптимизация вычислений
+   - Когда использовать useMemo
+
+2. [Выбор структуры состояния](https://react.dev/learn/choosing-the-state-structure)
+   - Организация состояния
+   - Вычисляемые значения
+   - Избегание дублирования
+
+### Оптимизация производительности
+1. [Оптимизация рендеринга](https://react.dev/learn/render-and-commit)
+   - Предотвращение лишних рендеров
+   - Профилирование компонентов
+   - Стратегии оптимизации
+
+2. [React DevTools Profiler](https://react.dev/learn/react-developer-tools)
+   - Анализ производительности
+   - Поиск проблемных мест
+   - Оптимизация ререндеров
+
+### Типизация с TypeScript
+1. [TypeScript в React](https://react-typescript-cheatsheet.netlify.app/)
+   - Типизация пропсов и состояния
+   - Дженерики
+   - Utility Types
+
+2. [Продвинутые типы](https://www.typescriptlang.org/docs/handbook/2/types-from-types.html)
+   - Mapped Types
+   - Conditional Types
+   - Template Literal Types
+
+### Работа с числами
+1. [JavaScript Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)
+   - Форматирование чисел
+   - Округление
+   - Работа с валютой
+
+2. [Intl.NumberFormat](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/NumberFormat)
+   - Форматирование валют
+   - Локализация чисел
+   - Настройка отображения
+
+### Дополнительные инструменты
+1. [Reselect](https://github.com/reduxjs/reselect) - библиотека для мемоизации селекторов
+2. [Decimal.js](https://github.com/MikeMcl/decimal.js/) - точные вычисления с десятичными числами
+3. [date-fns](https://date-fns.org/) - работа с датами и временем
+
 ## Полезные материалы
 - [React Performance](https://react.dev/learn/render-and-commit)
 - [useMemo Hook](https://react.dev/reference/react/useMemo)

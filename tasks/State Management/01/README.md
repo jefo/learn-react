@@ -27,29 +27,75 @@
    - Базовое использование
    - Обновление состояния
    - Работа с предыдущим значением
+   - Ленивая инициализация состояния
+   - Функциональные обновления
 
 2. [Управление состоянием](https://react.dev/learn/managing-state)
    - Принципы работы с состоянием
    - Когда использовать состояние
+   - Подъём состояния (state lifting)
+   - Совместное использование состояния
 
 ### Типизация с TypeScript
 1. [TypeScript в React](https://react.dev/learn/typescript)
    - Типизация пропсов
    - Типизация событий
+   - Дженерики в компонентах
+   - Union types и literal types
 
 2. [React TypeScript Cheatsheet](https://react-typescript-cheatsheet.netlify.app/)
    - Примеры типизации компонентов
    - Лучшие практики
+   - Типизация событий и обработчиков
+   - Условные типы в React
 
 ### Доступность (A11y)
 1. [React Accessibility](https://react.dev/reference/react-dom/components/common#aria-attributes)
    - Использование ARIA-атрибутов
    - Семантическая разметка
+   - Управление фокусом
+   - Клавиатурная навигация
 
-### Дополнительно
+2. [WAI-ARIA Practices](https://www.w3.org/WAI/ARIA/apg/patterns/)
+   - Паттерны доступности
+   - Роли и атрибуты
+   - Лучшие практики
+
+### Обработка событий
+1. [События в React](https://react.dev/learn/responding-to-events)
+   - Синтетические события
+   - Делегирование событий
+   - Предотвращение действий по умолчанию
+   - Всплытие событий
+
+2. [Паттерны обработки событий](https://react.dev/learn/sharing-state-between-components)
+   - Передача обработчиков через props
+   - Композиция обработчиков
+   - Оптимизация обработчиков
+
+### Отладка и разработка
 1. [React Developer Tools](https://react.dev/learn/react-developer-tools)
    - Отладка состояния
    - Инспектирование компонентов
+   - Профилирование производительности
+   - Поиск проблем ререндера
+
+2. [Тестирование React компонентов](https://testing-library.com/docs/react-testing-library/intro/)
+   - Написание тестов
+   - Тестирование событий
+   - Тестирование состояния
+   - Лучшие практики тестирования
+
+### Дополнительные ресурсы
+1. [React Patterns](https://reactpatterns.com/)
+   - Паттерны компонентов
+   - Паттерны состояния
+   - Обработка ошибок
+
+2. [React Hooks Patterns](https://www.patterns.dev/react)
+   - Использование хуков
+   - Кастомные хуки
+   - Антипаттерны
 
 ## Как запустить
 
