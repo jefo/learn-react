@@ -39,33 +39,6 @@ npm run dev
 3. Откройте Chrome DevTools Network панель для анализа запросов.
 4. Найдите и оптимизируйте проблемные места в компонентах.
 
-## Подсказки по реализации:
-
-1. Использование React Query для кэширования:
-```tsx
-const { data, isLoading } = useQuery({
-  queryKey: ['tasks'],
-  queryFn: api.getTasks,
-  staleTime: 5 * 60 * 1000, // 5 минут
-});
-```
-
-2. Оптимистичные обновления:
-```tsx
-const mutation = useMutation({
-  mutationFn: api.updateTask,
-  onMutate: async (newTask) => {
-    await queryClient.cancelQueries({ queryKey: ['tasks'] });
-    const previousTasks = queryClient.getQueryData(['tasks']);
-    queryClient.setQueryData(['tasks'], (old) => [...old, newTask]);
-    return { previousTasks };
-  },
-  onError: (err, newTask, context) => {
-    queryClient.setQueryData(['tasks'], context.previousTasks);
-  }
-});
-```
-
 ## Проверка результата:
 Ваше решение должно:
 - Минимизировать количество запросов к API
